@@ -68,6 +68,7 @@ This allows the controller to retain physical interpretability while increasing 
 
 ---
 
+```text
 /scripts
 ├── mpc_base.m
 ├── mpc_rain.m
@@ -88,7 +89,7 @@ This allows the controller to retain physical interpretability while increasing 
 
 /figures
 └── simulation_plots
-
+```
 
 ---
 
