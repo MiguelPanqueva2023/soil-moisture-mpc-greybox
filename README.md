@@ -68,6 +68,8 @@ This allows the controller to retain physical interpretability while increasing 
 
 ---
 
+## 📂 Repository Structure
+
 ```text
 /scripts
 ├── mpc_base.m
@@ -159,5 +161,4 @@ This framework demonstrates how control theory and machine learning can be combi
 • Smart irrigation systems
 
 • Climate-adaptive water management
-## 📂 Repository Structure
 
