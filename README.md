@@ -116,6 +116,8 @@ mpc_ET_time
 mpc_ET_theta
 mpc_drainage
 mpc_smooth
+mpc_physical_sat
+mpc_sigmoid_rain_model
 mpc_scenarios
 ```
 
