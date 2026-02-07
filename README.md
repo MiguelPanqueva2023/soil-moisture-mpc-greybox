@@ -76,6 +76,8 @@ This allows the controller to retain physical interpretability while increasing 
 ├── mpc_ET_theta.m
 ├── mpc_drainage.m
 ├── mpc_smooth.m
+├── mpc_physical_sat.m
+├── mpc_sigmoid_rain_model.m
 ├── mpc_scenarios.m
 ├── generate_dataset.m
 ├── train_residual_nn.m
