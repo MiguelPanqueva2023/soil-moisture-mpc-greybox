@@ -55,13 +55,14 @@ The Grey-Box structure combines:
 - A **physical model** (soil water balance)  
 - A **neural network residual** that learns the mismatch between reality and the physical model  
 
-$$
-\theta_{k+1}
-=
-f_{\text{phys}}(\theta_k,u_k,P_k,ET_k)
-+
-r_{\text{NN}}(\theta_k,u_k,P_k,ET_k)
-$$
+The Grey-Box model is defined as:
+
+**θ(k+1) = f_phys(θ(k), u(k), P(k), ET(k)) + r_NN(θ(k), u(k), P(k), ET(k))**
+
+where:
+- `f_phys(·)` is the physical soil water balance model
+- `r_NN(·)` is the neural network residual
+
 
 This allows the controller to retain physical interpretability while increasing accuracy.
 
